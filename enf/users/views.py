@@ -31,7 +31,7 @@ def login_view(request):
             return redirect('main:index')    
     else:
         form = CustomUserLoginForm()
-        return render(request, 'users/login.html', context = {'form' : form})
+        return render(request, 'users/login.html', 'form' : form)
     
 @login_required
 def profile_view(request):
