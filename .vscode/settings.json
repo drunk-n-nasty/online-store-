@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/EvoTechPC/OneDrive/Рабочий стол/python projects/online-store/enf/manage.py",
+            "args": [
+                "runserver",
+             
+            ],
+            "django": true,
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+    ]
+
+}
